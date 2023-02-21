@@ -29,6 +29,36 @@ AdaBoost (short for Adaptive Boosting) is a machine learning algorithm that can 
 
 The final model can be used to make predictions on new data points. The AdaBoost algorithm is known for its high accuracy and robustness to overfitting, but it can be sensitive to noisy data.
 
+# When to USE?
+
+The AdaBoost algorithm is a versatile machine learning algorithm that can be used for a wide range of classification and regression problems. 
+Here are some scenarios where AdaBoost can be a good choice:
+
+- __When you have a large dataset__
+  
+  AdaBoost can handle large datasets efficiently, making it a good choice for problems with a high volume of data.
+
+- __When you want to improve the performance of a weak learner__
+   
+   AdaBoost can improve the performance of a weak learner by combining multiple weak learners into a strong model.
+
+- __When you have unbalanced data__
+
+    AdaBoost can handle unbalanced datasets by giving more weight to the minority class, making it a good choice for problems where the classes are not equally represented.
+
+- __When you want a model that is less prone to overfitting__
+
+    AdaBoost is less prone to overfitting than other machine learning algorithms, especially when using weak learners with low complexity.
+
+- __When you need high accuracy__
+
+    AdaBoost can achieve high accuracy with relatively few base models compared to other ensemble methods.
+
+However, AdaBoost may not be the best choice in some scenarios. For example, if you have a small dataset, a simpler algorithm may be more appropriate. Additionally, if your data contains significant noise or outliers, AdaBoost may not perform well, and you may need to use other algorithms or preprocess the data to address these issues.
+
+
+
+
 The AdaBoost algorithm has several benefits and disadvantages, which are discussed below:
 
 ## Benefits:
