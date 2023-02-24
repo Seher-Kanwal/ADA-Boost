@@ -1,4 +1,5 @@
 # ADA-Boost
+
 ![image](https://user-images.githubusercontent.com/92606737/220265774-90384bc4-f4ef-4e62-9dfe-afe6eb395da3.png)
 
 AdaBoost (short for Adaptive Boosting) is a machine learning algorithm that can be used for both classification and regression problems. It is an ensemble learning method that combines several weak models (also called base models or weak learners) to form a stronger model. The basic idea behind AdaBoost is to give more weight to the misclassified data points so that the next base model will focus more on the misclassified data points in order to correctly classify them.
@@ -98,6 +99,8 @@ Robust to overfitting: AdaBoost is less likely to overfit than other machine lea
 AdaBoost is an ensemble method, and it can be difficult to interpret the results and understand how the model arrived at its predictions.
 
 Overall, AdaBoost is a powerful machine learning algorithm that can achieve high accuracy and is robust to overfitting. However, it is important to consider its limitations and potential biases when using it for a particular problem.
+
+
 
 
 
